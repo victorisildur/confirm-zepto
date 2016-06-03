@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale = 1.0,user-scalable=no" />
+	    <meta name="format-detection" content="telephone=no" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>confirm-zepto</title>
+        <style>
+         html {
+             width: 100%;
+             height: 100%;
+             font-family: "Helvetica Neue",Helvetica,STHeiTi;
+         }
+         body {
+             width: 100%;
+             height: 100%;
+             position: relative;
+             margin: 0;
+         }
+        </style>
+    </head>
+    <body>
+        <button id="btn">trigger confirm</button>
+        <button id="btn2">trigger confirm2</button>
+        <script src="../js/zepto.js"></script>
+        <script src="../dist/confirm.js"></script>
+        <script>
+         $('#btn').on('click', function() {
+             confirm({
+                 title: '确定吃薯条？',
+                 positive: '确定',
+                 negative: '取消',
+                 callback: function(isSuccess) {
+                     console.debug(isSuccess);
+                 }
+             });
+         });
+         $('#btn2').on('click', function() {
+             confirm({
+                 title: '确定吃汉堡？',
+                 positive: '确定1',
+                 negative: '取消1',
+                 callback: function(isSuccess) {
+                     console.debug(isSuccess);
+                 }
+             });
+         });
+        </script>
+    </body>
+</html>
