@@ -1,6 +1,6 @@
 {
   "name": "confirm-zepto",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mobile confirm replacing window.confirm(), mocking iOS prompt UI, supporting custom message and positive button text",
   "main": "dist/confirm.js",
   "scripts": {

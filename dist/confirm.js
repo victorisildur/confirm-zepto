@@ -89,7 +89,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"prompt js-confirm\" style=\"display:none\">\n    <div class=\"box\">\n        <div class=\"title js-title\">自定义</div>\n        <div class=\"btn-box\">\n            <div class=\"btn is-left-btn js-negative\">取消</div><div class=\"btn is-right-btn js-positive\">添加</div>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "<div class=\"confirm js-confirm\" style=\"display:none\">\n    <div class=\"box\">\n        <div class=\"title js-title\">自定义</div>\n        <div class=\"btn-box\">\n            <div class=\"btn is-left-btn js-negative\">取消</div><div class=\"btn is-right-btn js-positive\">添加</div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 2 */
@@ -126,7 +126,7 @@
 
 
 	// module
-	exports.push([module.id, ".prompt {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.4);\n  font-size: 16px;\n}\n.prompt .box {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 270px;\n  height: 150px;\n  margin-left: -135px;\n  margin-top: -60px;\n  background-color: white;\n  border-radius: 12.5px;\n}\n.prompt .box .title {\n  height: 100px;\n  line-height: 100px;\n  text-align: center;\n  font-weight: 700;\n}\n.prompt .box .btn-box {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 45px;\n  line-height: 45px;\n  color: #007aff;\n  font-weight: 700;\n}\n.prompt .box .btn-box .btn {\n  display: inline-block;\n  width: 50%;\n  height: 100%;\n  box-sizing: border-box;\n  text-align: center;\n  border: 1px solid rgba(0, 0, 0, 0.1);\n}\n.prompt .box .btn-box .btn.is-left-btn {\n  border-right: 0;\n}\n", ""]);
+	exports.push([module.id, ".confirm {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.4);\n  font-size: 16px;\n}\n.confirm .box {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 270px;\n  height: 150px;\n  margin-left: -135px;\n  margin-top: -60px;\n  background-color: white;\n  border-radius: 12.5px;\n}\n.confirm .box .title {\n  height: 100px;\n  line-height: 100px;\n  text-align: center;\n  font-weight: 700;\n}\n.confirm .box .btn-box {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 45px;\n  line-height: 45px;\n  color: #007aff;\n  font-weight: 700;\n}\n.confirm .box .btn-box .btn {\n  display: inline-block;\n  width: 50%;\n  height: 100%;\n  box-sizing: border-box;\n  text-align: center;\n  border: 1px solid rgba(0, 0, 0, 0.1);\n}\n.confirm .box .btn-box .btn.is-left-btn {\n  border-right: 0;\n}\n", ""]);
 
 	// exports
 
