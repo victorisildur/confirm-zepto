@@ -24,7 +24,7 @@ confirm({
 });
 ```
 
-# options
+# Options
 
 * title: title
 * negative: text of negative button, optional, default to be 'cancel'
@@ -32,3 +32,7 @@ confirm({
 * callback: callback function when button is clicked
 
 no css is required! it's built-in by webpack
+
+# Change Logs
+
+* 1.0.5: long title display bug fix
